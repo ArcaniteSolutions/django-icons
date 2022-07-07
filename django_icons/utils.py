@@ -1,5 +1,5 @@
 from django.conf import settings
-from django.utils import six
+import six
 from django.utils.module_loading import import_string
 
 from django_icons.css import merge_css_list
